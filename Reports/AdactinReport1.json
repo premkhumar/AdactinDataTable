@@ -1,0 +1,233 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "verifying-the-login-functionality-of-adactin;successfull-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11406483700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1275278800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid \"anonym123\" and \"admin123\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anonym123\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_the_valid_and_and_click_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10082500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search Hotel page to be displayed",
+            "match": {
+              "location": "StepDefinition.search_Hotel_page_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1242491000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on search Hotel page enter \"Melbourne\",\"Hotel Sunshine\",\"Deluxe\",\"6 - Six\",\"29/12/2020\",\"31/12/2020\",\"3 - Three\",\"2 - Two\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"6 - Six\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"29/12/2020\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"31/12/2020\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 121
+                }
+              ],
+              "location": "StepDefinition.user_is_on_search_Hotel_page_enter_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 656968100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click search button",
+            "match": {
+              "location": "StepDefinition.click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96313500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on select hotel page select the hotel package",
+            "match": {
+              "location": "StepDefinition.user_is_on_select_hotel_page_select_the_hotel_package()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 619458500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click continue",
+            "match": {
+              "location": "StepDefinition.click_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1064849100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on enter \"Greens\",\"Tech\",\"Plot No.19,Balamurugan Garden,OMR Road,Kancheepuram District,Okkiam, Thoraipakkam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Greens\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Tech\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Plot No.19,Balamurugan Garden,OMR Road,Kancheepuram District,Okkiam, Thoraipakkam\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_is_on_enter(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cardno",
+                  "cardtype",
+                  "expmon",
+                  "expyear",
+                  "cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "4263982640269299",
+                  "VISA",
+                  "January",
+                  "2021",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78276300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click BookNow button",
+            "match": {
+              "location": "StepDefinition.click_BookNow_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6502206400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Booking Confirmation page verify the details",
+            "match": {
+              "location": "StepDefinition.user_is_on_Booking_Confirmation_page_verify_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423314700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click Logout",
+            "match": {
+              "location": "StepDefinition.click_Logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the login functionality of Adactin",
+    "description": "",
+    "id": "verifying-the-login-functionality-of-adactin",
+    "keyword": "Feature",
+    "uri": "C:/Users/SAM/Desktop/Java/AdactinDataTable/src/test/resources/Adactin.feature",
+    "tags": []
+  }
+]

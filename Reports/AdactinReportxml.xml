@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.874906">
+<testcase classname="Verifying the login functionality of Adactin" name="Successfull login with valid credentials" time="23.874906">
+<system-out><![CDATA[Given User is on the adactin login page.....................................passed
+When User enters the valid "anonym123" and "admin123" and click login.......passed
+Then Search Hotel page to be displayed......................................passed
+When User is on search Hotel page enter "Melbourne","Hotel Sunshine","Deluxe","6 - Six","29/12/2020","31/12/2020","3 - Three","2 - Two" details.passed
+Then click search button....................................................passed
+When User is on select hotel page select the hotel package..................passed
+Then click continue.........................................................passed
+When User is on enter "Greens","Tech","Plot No.19,Balamurugan Garden,OMR Road,Kancheepuram District,Okkiam, Thoraipakkam".passed
+Then Click BookNow button...................................................passed
+When user is on Booking Confirmation page verify the details................passed
+Then click Logout...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
